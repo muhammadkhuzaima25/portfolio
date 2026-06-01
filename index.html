@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Muhammad Khuzaima — Graphic Designer, Logo & Brand Identity Expert, UI/UX Designer, and MERN Stack Developer. Portfolio of design and development work." />
+  <meta name="author" content="Muhammad Khuzaima" />
+  <title>Muhammad Khuzaima — Designer & Developer</title>
+
+  <!-- Google Fonts: Syne (headings) + DM Sans (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@500;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- FOUC-prevention: apply saved theme before stylesheet loads -->
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('theme') || 'dark';
+        document.documentElement.setAttribute('data-theme', t);
+      } catch (e) { document.documentElement.setAttribute('data-theme', 'dark'); }
+    })();
+  </script>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/pages.css" />
+</head>
+<body>
+
+  <!-- =================== NAVBAR =================== -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">MK.</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light theme" title="Toggle theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="12" cy="12" r="4"/>
+          <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/>
+        </svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+      </button>
+      <div class="hamburger" aria-label="Menu" role="button" tabindex="0">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile drawer -->
+  <div class="mobile-drawer">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- =================== HERO =================== -->
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-grid">
+
+          <!-- Left: text content -->
+          <div class="hero-left">
+            <div class="hero-tag">
+              <span class="dot"></span>
+              Available for Work ✦
+            </div>
+
+            <h1 class="hero-title">
+              Design that Speaks.<br>
+              Code that <span class="gradient-text">Performs.</span>
+            </h1>
+
+            <p class="hero-sub">
+              <span class="pill">Graphic Designer</span> &nbsp;|&nbsp;
+              <span class="pill">Logo &amp; Brand Identity Expert</span> &nbsp;|&nbsp;
+              <span class="pill">UI/UX Designer</span> &nbsp;|&nbsp;
+              <span class="pill">MERN Stack Developer</span>
+            </p>
+
+            <p class="hero-sub" style="font-size: 1.15rem; margin-top: 8px;">
+              Hi, I'm <strong style="color:var(--text);">Muhammad Khuzaima</strong> — a hybrid
+              <span class="typewrap" data-words="Designer,Developer,Brand Strategist,Problem Solver">Designer</span>
+            </p>
+
+            <div class="hero-ctas">
+              <a href="projects.html" class="btn btn-primary">View My Projects →</a>
+              <a href="contact.html" class="btn btn-ghost">Let's Talk</a>
+            </div>
+          </div>
+
+          <!-- Right: mascot illustration with orbiting badges -->
+          <div class="hero-visual">
+            <div class="mascot-wrap">
+
+              <!-- Floating + bobbing character -->
+              <div class="mascot-float">
+                <svg class="mascot-svg" viewBox="0 0 320 380" xmlns="http://www.w3.org/2000/svg" aria-label="Walking developer illustration">
+                  <defs>
+                    <linearGradient id="bodyGrad" x1="0" x2="1" y1="0" y2="1">
+                      <stop offset="0%" stop-color="#00f5ff"/>
+                      <stop offset="100%" stop-color="#4f6ef7"/>
+                    </linearGradient>
+                    <linearGradient id="laptopGrad" x1="0" x2="1">
+                      <stop offset="0%" stop-color="#1a1d2e"/>
+                      <stop offset="100%" stop-color="#0d0f1a"/>
+                    </linearGradient>
+                    <linearGradient id="screenGrad" x1="0" x2="1" y1="0" y2="1">
+                      <stop offset="0%" stop-color="#00f5ff"/>
+                      <stop offset="100%" stop-color="#4f6ef7"/>
+                    </linearGradient>
+                  </defs>
+
+                  <!-- Backpack (behind body) -->
+                  <rect x="195" y="135" width="48" height="80" rx="14" fill="#1a1d2e" stroke="url(#bodyGrad)" stroke-width="2"/>
+                  <rect x="202" y="160" width="34" height="6" rx="3" fill="url(#bodyGrad)"/>
+                  <rect x="202" y="180" width="34" height="6" rx="3" fill="rgba(255,255,255,0.15)"/>
+
+                  <!-- Back leg (further) -->
+                  <rect x="135" y="260" width="22" height="70" rx="10" fill="#0d0f1a" stroke="url(#bodyGrad)" stroke-width="2"/>
+                  <ellipse cx="146" cy="335" rx="22" ry="8" fill="#00f5ff"/>
+
+                  <!-- Body / hoodie -->
+                  <path d="M 100 160 Q 100 130 130 130 L 200 130 Q 230 130 230 160 L 230 250 Q 230 270 210 270 L 120 270 Q 100 270 100 250 Z" fill="url(#bodyGrad)" opacity="0.95"/>
+                  <!-- Hoodie pocket -->
+                  <path d="M 120 215 L 210 215 L 200 245 L 130 245 Z" fill="rgba(0,0,0,0.18)"/>
+
+                  <!-- Front leg -->
+                  <rect x="180" y="260" width="22" height="70" rx="10" fill="#0d0f1a" stroke="url(#bodyGrad)" stroke-width="2"/>
+                  <ellipse cx="191" cy="335" rx="22" ry="8" fill="#00f5ff"/>
+
+                  <!-- Front arm holding laptop -->
+                  <path d="M 100 170 Q 80 200 95 240 L 130 240 Q 140 210 130 175 Z" fill="url(#bodyGrad)"/>
+                  <!-- Hand -->
+                  <circle cx="105" cy="240" r="12" fill="#0d0f1a" stroke="url(#bodyGrad)" stroke-width="2"/>
+
+                  <!-- Laptop -->
+                  <g transform="translate(20 200)">
+                    <rect x="0" y="40" width="120" height="6" rx="3" fill="#1a1d2e"/>
+                    <rect x="6" y="0" width="108" height="42" rx="4" fill="url(#laptopGrad)" stroke="url(#screenGrad)" stroke-width="1.5"/>
+                    <!-- Screen content -->
+                    <rect x="14" y="8" width="40" height="3" rx="1.5" fill="#00f5ff" opacity="0.9"/>
+                    <rect x="14" y="16" width="60" height="2" rx="1" fill="rgba(255,255,255,0.4)"/>
+                    <rect x="14" y="22" width="50" height="2" rx="1" fill="rgba(255,255,255,0.4)"/>
+                    <rect x="14" y="28" width="70" height="2" rx="1" fill="rgba(79,110,247,0.8)"/>
+                    <rect x="14" y="34" width="35" height="2" rx="1" fill="rgba(255,255,255,0.3)"/>
+                  </g>
+
+                  <!-- Back arm -->
+                  <path d="M 230 170 Q 250 195 240 230 L 210 230 Q 205 200 215 175 Z" fill="url(#bodyGrad)" opacity="0.85"/>
+
+                  <!-- Hood (no face — faceless character) -->
+                  <ellipse cx="165" cy="100" rx="48" ry="55" fill="url(#bodyGrad)"/>
+                  <!-- Hood opening (where face would be — kept dark, no features) -->
+                  <ellipse cx="165" cy="105" rx="34" ry="42" fill="#0a0a0f"/>
+                  <!-- Subtle glow inside hood -->
+                  <ellipse cx="165" cy="100" rx="20" ry="28" fill="url(#screenGrad)" opacity="0.15"/>
+                  <!-- Hood strings -->
+                  <line x1="155" y1="140" x2="150" y2="165" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
+                  <line x1="175" y1="140" x2="180" y2="165" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
+                  <circle cx="150" cy="166" r="3" fill="#00f5ff"/>
+                  <circle cx="180" cy="166" r="3" fill="#00f5ff"/>
+
+                  <!-- Floating code particles -->
+                  <text x="40" y="80" font-family="monospace" font-size="14" fill="#00f5ff" opacity="0.7">&lt;/&gt;</text>
+                  <text x="270" y="60" font-family="monospace" font-size="12" fill="#4f6ef7" opacity="0.7">{ }</text>
+                  <text x="20" y="160" font-family="monospace" font-size="10" fill="#00f5ff" opacity="0.5">01010</text>
+                  <circle cx="285" cy="140" r="3" fill="#00f5ff" opacity="0.6"/>
+                  <circle cx="50" cy="280" r="4" fill="#4f6ef7" opacity="0.6"/>
+                  <circle cx="290" cy="290" r="2" fill="#00f5ff" opacity="0.8"/>
+                </svg>
+              </div>
+
+              <!-- Orbiting badges (rotates around the mascot) -->
+              <div class="orbit-wrapper">
+                <div class="orbit-badge b1">
+                  <div class="orbit-badge-inner">MERN Dev</div>
+                </div>
+                <div class="orbit-badge b2">
+                  <div class="orbit-badge-inner">Brand Identity</div>
+                </div>
+                <div class="orbit-badge b3">
+                  <div class="orbit-badge-inner">Logo Design</div>
+                </div>
+                <div class="orbit-badge b4">
+                  <div class="orbit-badge-inner">UI/UX Design</div>
+                </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== STATS =================== -->
+    <section class="stats">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="reveal">
+            <span class="stat-num"><span data-count="3" data-suffix="+">0</span></span>
+            <div class="stat-label">Projects Delivered</div>
+          </div>
+          <div class="reveal">
+            <span class="stat-num"><span data-count="2" data-suffix="+">0</span></span>
+            <div class="stat-label">Years Experience</div>
+          </div>
+          <div class="reveal">
+            <span class="stat-num"><span data-count="10" data-suffix="+">0</span></span>
+            <div class="stat-label">Happy Clients</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =================== FOOTER =================== -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">MK.</div>
+          <p>Design that Speaks. Code that Performs.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+          <div class="footer-col">
+            <h4>Connect</h4>
+          <div class="footer-socials">
+            <a class="github-btn" href="https://github.com/muhammadkhuzaima25" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="white"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+            </a>
+            <a class="fiverr-btn" href="https://www.fiverr.com/muhmd_khuzaima" target="_blank" rel="noopener noreferrer" aria-label="Fiverr">
+              <span style="color:white; font-size:18px; font-weight:900; font-family:'DM Sans',sans-serif; letter-spacing:-1px;">fi</span>
+            </a>
+            <a class="linkedin-btn" href="https://www.linkedin.com/in/muhammad-khuzaima-991a08313" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="white"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+            <a class="behance-btn" href="https://www.behance.net/muhammakhuzaima" target="_blank" rel="noopener noreferrer" aria-label="Behance">
+              <span style="color:white; font-size:18px; font-weight:900; font-family:'DM Sans',sans-serif; letter-spacing:-1px;">Be</span>
+            </a>
+          </div>
+          </div>
+      </div>
+      <div class="footer-bottom">
+        Designed &amp; Developed by <strong style="color:var(--text);">Muhammad Khuzaima</strong> &copy; 2026
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script src="js/animations.js"></script>
+</body>
+</html>

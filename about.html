@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="About Muhammad Khuzaima — Graphic Designer & MERN Stack Developer from Pakistan." />
+  <title>About — Muhammad Khuzaima</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@500;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- FOUC-prevention: apply saved theme before stylesheet loads -->
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('theme') || 'dark';
+        document.documentElement.setAttribute('data-theme', t);
+      } catch (e) { document.documentElement.setAttribute('data-theme', 'dark'); }
+    })();
+  </script>
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/pages.css" />
+</head>
+<body>
+
+  <!-- =================== NAVBAR =================== -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">MK.</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light theme" title="Toggle theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="12" cy="12" r="4"/>
+          <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/>
+        </svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+      </button>
+      <div class="hamburger" aria-label="Menu" role="button" tabindex="0">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mobile-drawer">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- =================== ABOUT =================== -->
+  <main>
+    <section>
+      <div class="container">
+
+        <div class="section-title reveal">
+          <div class="tag">— About Me</div>
+          <h2>Creative Mind. <span class="gradient-text">Technical Hands.</span></h2>
+          <p>Where pixels meet logic and ideas turn into shipped products.</p>
+        </div>
+
+        <div class="about-grid">
+
+          <!-- Left: text -->
+          <div class="about-text reveal">
+            <h2>Hi, I'm <span class="gradient-text">Khuzaima</span>.</h2>
+            <p>
+              I'm a hybrid creative and technical professional from
+              <strong style="color:var(--text);">Pakistan</strong> who specializes in
+              <strong style="color:var(--primary);">brand identity</strong>,
+              <strong style="color:var(--primary);">logo design</strong>,
+              <strong style="color:var(--primary);">UI/UX</strong>, and
+              <strong style="color:var(--primary);">MERN stack development</strong>.
+            </p>
+            <p>
+              I love the moment a flat sketch becomes a system — colors, type, components, code —
+              working together like a well-tuned engine. That's the space I live in.
+            </p>
+
+            <!-- Design / Dev columns -->
+            <div class="about-cols">
+              <div class="about-col">
+                <h4>Design Side</h4>
+                <ul>
+                  <li>Logo Design</li>
+                  <li>Brand Identity</li>
+                  <li>UI / UX Design</li>
+                  <li>Figma</li>
+                  <li>Adobe Illustrator</li>
+                  <li>Photoshop</li>
+                  <li>Canva</li>
+                </ul>
+              </div>
+              <div class="about-col">
+                <h4>Dev Side</h4>
+                <ul>
+                  <li>MongoDB</li>
+                  <li>Express.js</li>
+                  <li>React.js</li>
+                  <li>Node.js</li>
+                  <li>JavaScript (ES6+)</li>
+                  <li>HTML / CSS</li>
+                  <li>REST APIs</li>
+                </ul>
+              </div>
+            </div>
+
+            <div style="margin-top: 30px; display: flex; gap: 12px; flex-wrap: wrap;">
+              <a href="projects.html" class="btn btn-primary">View My Projects</a>
+              <a href="contact.html" class="btn btn-ghost">Get in Touch</a>
+            </div>
+          </div>
+
+          <!-- Right: decorative code block + floating shapes -->
+          <div class="about-visual reveal">
+            <span class="float-shape s1"></span>
+            <span class="float-shape s2"></span>
+
+            <div class="code-block">
+              <span class="line c-com">// about-me.js</span>
+              <span class="line"><span class="c-key">const</span> <span class="c-str">khuzaima</span> = {</span>
+              <span class="line">&nbsp;&nbsp;role: <span class="c-str">'Designer + Developer'</span>,</span>
+              <span class="line">&nbsp;&nbsp;basedIn: <span class="c-str">'Pakistan 🇵🇰'</span>,</span>
+              <span class="line">&nbsp;&nbsp;loves: [</span>
+              <span class="line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="c-str">'clean UI'</span>,</span>
+              <span class="line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="c-str">'strong brands'</span>,</span>
+              <span class="line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="c-str">'fast websites'</span>,</span>
+              <span class="line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="c-str">'good coffee'</span></span>
+              <span class="line">&nbsp;&nbsp;],</span>
+              <span class="line">&nbsp;&nbsp;available: <span class="c-key">true</span>,</span>
+              <span class="line">&nbsp;&nbsp;energy: <span class="c-num">100</span></span>
+              <span class="line">};</span>
+              <span class="line"></span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Approach -->
+        <div class="approach stagger">
+          <div class="glass approach-card">
+            <div class="approach-icon">◆</div>
+            <h3>Design Thinking</h3>
+            <p>Every project starts with understanding — the user, the brand, the goal. I move from research to sketches to polished systems that just feel right.</p>
+          </div>
+          <div class="glass approach-card">
+            <div class="approach-icon">⟨/⟩</div>
+            <h3>Clean Code</h3>
+            <p>Readable, scalable, and maintainable. I build MERN apps with a focus on performance, accessibility, and developer experience.</p>
+          </div>
+          <div class="glass approach-card">
+            <div class="approach-icon">✦</div>
+            <h3>Brand Strategy</h3>
+            <p>A logo is just the start. I craft identity systems — colors, type, voice, and visuals — that scale across every touchpoint.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- =================== FOOTER =================== -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">MK.</div>
+          <p>Design that Speaks. Code that Performs.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <div class="footer-socials">
+            <a class="github-btn" href="https://github.com/muhammadkhuzaima25" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="white"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+            </a>
+            <a class="fiverr-btn" href="https://www.fiverr.com/muhmd_khuzaima" target="_blank" rel="noopener noreferrer" aria-label="Fiverr">
+              <span style="color:white; font-size:18px; font-weight:900; font-family:'DM Sans',sans-serif; letter-spacing:-1px;">fi</span>
+            </a>
+            <a class="linkedin-btn" href="https://www.linkedin.com/in/muhammad-khuzaima-991a08313" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="white"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+            <a class="behance-btn" href="https://www.behance.net/muhammakhuzaima" target="_blank" rel="noopener noreferrer" aria-label="Behance">
+              <span style="color:white; font-size:18px; font-weight:900; font-family:'DM Sans',sans-serif; letter-spacing:-1px;">Be</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        Designed &amp; Developed by <strong style="color:var(--text);">Muhammad Khuzaima</strong> &copy; 2026
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/animations.js"></script>
+</body>
+</html>
