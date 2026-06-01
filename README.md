@@ -1,13 +1,12 @@
 <div align="center">
 
-# <img src="https://media.giphy.com/media/hvRJCLFxycEFk/giphy.gif" width="40px"/> Hey there, I'm <a href="https://muhammadkhuzaima.vercel.app/">Muhammad Khuzaima</a>!
+Hey there, I'm <a href="https://muhammadkhuzaima.vercel.app/">Muhammad Khuzaima</a>!
 
 <img src="https://readme-typing-svg.demolab.com?font=Syne&weight=800&size=28&duration=3500&pause=800&color=00F5FF&center=true&vCenter=true&width=700&lines=Graphic+Designer+%F0%9F%8E%A8%EF%B8%8F;UI%2FUX+Designer+%F0%9F%92%BB;Brand+Identity+Expert+%F0%9F%8C%B1;MERN+Stack+Developer+%F0%9F%9A%80" alt="Typing SVG" />
 
 <br/>
 
 <a href="https://muhammadkhuzaima.vercel.app/"><img src="https://img.shields.io/badge/🌐_Live_Portfolio-000000?style=for-the-badge&logoColor=white" alt="Live Portfolio"/></a>
-<a href="mailto:muhammadkhuzaima.gcu@gmail.com"><img src="https://img.shields.io/badge/📧_Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 <a href="#-license"><img src="https://img.shields.io/badge/⚖️_License-All_Rights_Reserved-red?style=for-the-badge" alt="License"/></a>
 
 </div>
@@ -16,13 +15,15 @@
 
 ## Tags & SEO Keywords
 
-> Find this portfolio through GitHub / Google search using any of these keywords:
+**Design:** `graphic-designer` · `ui-ux-designer` · `brand-identity` · 
+`logo-designer` · `figma` · `adobe-illustrator` · `adobe-photoshop` · 
+`visual-identity`
 
-**Design:** `graphic-designer` · `ui-ux-designer` · `brand-identity-designer` · `logo-designer` · `packaging-designer` · `visual-identity` · `brand-strategist` · `creative-director` · `figma-designer` · `adobe-illustrator` · `adobe-photoshop` · `canva-designer` · `typography` · `color-theory` · `minimalist-design` · `dark-ui-design`
+**Development:** `mern-stack` · `fullstack-developer` · `react` · 
+`nodejs` · `mongodb` · `javascript` · `responsive-design`
 
-**Development:** `mern-stack-developer` · `fullstack-developer` · `web-developer` · `frontend-developer` · `react-developer` · `node-js-developer` · `express-js` · `mongodb` · `javascript-developer` · `html5` · `css3` · `responsive-design` · `glassmorphism-ui` · `modern-web-design` · `vanilla-javascript` · `static-website`
-
-**Portfolio & Services:** `designer-portfolio` · `developer-portfolio` · `creative-portfolio` · `personal-website` · `freelance-designer` · `available-for-hire` · `remote-work` · `creative-professional` · `ui-ux-portfolio` · `brand-identity-portfolio` · `logo-design-services` · `web-development-services`
+**Portfolio:** `designer-portfolio` · `developer-portfolio` · 
+`freelance-designer` · `available-for-hire` · `pakistan`
 
 ---
 
@@ -35,9 +36,9 @@ Every pixel, animation, and interaction was designed from scratch with attention
 <br/>
 
 ```
-✦ 100% Hand-written code       ✦ Zero dependencies
+✦ Zero dependencies           ✦ SEO optimized
 ✦ Fully responsive            ✦ Accessibility-first
-✦ 60fps animations            ✦ SEO optimized
+✦ 60fps animations            
 ```
 
 ---
@@ -63,12 +64,6 @@ Every pixel, animation, and interaction was designed from scratch with attention
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
 <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"/>
-
-### Design & Typography
-<img src="https://img.shields.io/badge/Syne-000000?style=for-the-badge&logoColor=white" alt="Syne"/>
-<img src="https://img.shields.io/badge/DM_Sans-000000?style=for-the-badge&logoColor=white" alt="DM Sans"/>
-<img src="https://img.shields.io/badge/Glassmorphism-0A0A0F?style=for-the-badge&logoColor=00F5FF" alt="Glassmorphism"/>
-<img src="https://img.shields.io/badge/Responsive_Design-FF6B6B?style=for-the-badge&logoColor=white" alt="Responsive"/>
 
 </div>
 
@@ -125,20 +120,6 @@ Every pixel, animation, and interaction was designed from scratch with attention
 </tr>
 </table>
 
----
-
-## 📸 Preview
-
-<div align="center">
-
-| Home Page | Projects Page | Mobile View |
-|:---------:|:-------------:|:-----------:|
-| *Coming soon* | *Coming soon* | *Coming soon* |
-| `index.html` | `projects.html` | Responsive |
-
-</div>
-
-> 💡 **Tip:** Click the [Live Demo](https://muhammadkhuzaima.vercel.app/) button above to see the full experience with animations and interactions.
 
 ---
 
@@ -247,7 +228,6 @@ Then visit: [http://localhost:8000](http://localhost:8000)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/muhammad-khuzaima-991a08313)
 [![Fiverr](https://img.shields.io/badge/Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white)](https://fiverr.com/muhmd_khuzaima)
 [![Behance](https://img.shields.io/badge/Behance-1769FF?style=for-the-badge&logo=behance&logoColor=white)](https://behance.net/muhammakhuzaima)
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:muhammadkhuzaima.gcu@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=google-chrome&logoColor=white)](https://muhammadkhuzaima.vercel.app/)
 
 </div>
@@ -285,16 +265,14 @@ This project is **NOT open source**. The code, design, content, and all associat
 
 Unauthorized use will result in **immediate legal action**, including DMCA takedowns and civil litigation. See the [LICENSE](./LICENSE) file for complete terms.
 
-> ⚠️ **If you are here to copy code or designs — please leave now and respect the work.**
 
 ---
 
 ## 🙏 Acknowledgments
 
-- **Fonts:** [Google Fonts](https://fonts.google.com) (Syne, DM Sans)
 - **Icons:** Custom-crafted SVGs by the author
 - **Inspiration:** The design community on Dribbble, Behance, and GitHub
-- **Tools:** Built with [VS Code](https://code.visualstudio.com) and lots of ☕
+- **Tools:** Built with [VS Code](https://code.visualstudio.com) 
 
 ---
 
